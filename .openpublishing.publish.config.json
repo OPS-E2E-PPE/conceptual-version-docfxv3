@@ -6,7 +6,10 @@
       "build_output_subfolder": "conceptual-version-docfxv3",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [ "< contososerver-2.0", ">= contososerver-2.0 || >= contosoclient-1.0" ],
+      "moniker_ranges": [
+        "\u003C contososerver-2.0",
+        "\u003E= contososerver-2.0 || \u003E= contosoclient-1.0"
+      ],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -27,18 +30,19 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
-    },    
-    {		
- 		  "path_to_root": "_themes.pdf",		
- 		  "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-  	  "branch": "master"		
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "main",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {},
-  "need_generate_pdf_url_template": true,  
-  "need_generate_intellisense": false,  
+  "need_generate_pdf_url_template": true,
+  "need_generate_intellisense": false,
   "docs_build_engine": {
     "name": "docfx_v3"
   },
@@ -48,6 +52,6 @@
   "targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
-     }
+    }
   }
 }
